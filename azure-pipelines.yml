@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'svc-pipeline-virtual-build-agent'
+pool: 'svc-pipeline-virtual-build-agent'
 
 steps:
 - task: PowerShell@2
