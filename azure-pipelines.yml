@@ -11,4 +11,4 @@ pool: 'svc-pipeline-virtual-build-agent'
 steps:
 - task: PowerShell@2
   inputs:
-    filePath: 'firstshellscript.sh'
+    filePath: 'firstshellscript.ps1'
