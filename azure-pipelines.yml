@@ -7,9 +7,9 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'WindowsServer'
 
 steps:
-- task: Bash@3
+- task: PowerShell@2
   inputs:
     filePath: 'firstshellscript.sh'
