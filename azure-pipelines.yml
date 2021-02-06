@@ -6,9 +6,9 @@
 trigger:
 - master
 
-pool: 'svc-pipeline-virtual-build-agent'
+pool: 'vaibhav-devops'
 
 steps:
-- task: PowerShell@2
+- task: Bash@3
   inputs:
-    filePath: 'firstshellscript.ps1'
+    filePath: 'firstshellscript.sh'
